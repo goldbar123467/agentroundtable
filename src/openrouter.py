@@ -18,6 +18,9 @@ class OpenRouterError(RuntimeError):
     pass
 
 
+DEFAULT_REASONING = {"effort": "low", "exclude": True}
+
+
 def chat(
     model: str,
     messages: Iterable[dict],
@@ -26,11 +29,18 @@ def chat(
     max_tokens: int = 1600,
     timeout: float | None = None,
     retries: int = 3,
+    reasoning: dict | None = None,
 ) -> str:
     """Call OpenRouter and return the assistant message text.
 
     Retries transient failures (5xx, 429, timeouts) with exponential backoff.
     Raises OpenRouterError on permanent failure.
+
+    `reasoning` controls reasoning-model thinking token budget. Defaults to
+    {"effort": "low", "exclude": True} to prevent thinking-token explosion
+    (e.g. kimi-k2.6 can burn 4K+ tokens of reasoning on a simple prompt and
+    return empty content). Pass None to let the provider default reign; pass
+    an explicit dict to override.
     """
     api_key = os.environ.get("OPENROUTER_API_KEY")
     if not api_key:
@@ -53,6 +63,9 @@ def chat(
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
+    effective_reasoning = DEFAULT_REASONING if reasoning is None else reasoning
+    if effective_reasoning:
+        payload["reasoning"] = effective_reasoning
 
     http_timeout = timeout if timeout is not None else float(
         os.environ.get("HTTP_TIMEOUT", "120")
@@ -70,11 +83,20 @@ def chat(
             if r.status_code == 200:
                 data = r.json()
                 try:
-                    return data["choices"][0]["message"]["content"] or ""
+                    choice = data["choices"][0]
+                    content = choice["message"]["content"]
+                    finish = choice.get("finish_reason")
                 except (KeyError, IndexError, TypeError) as e:
                     raise OpenRouterError(
                         f"Unexpected response shape from {model}: {data}"
                     ) from e
+                if not content:
+                    raise OpenRouterError(
+                        f"{model} returned empty content (finish_reason={finish}). "
+                        "For reasoning models, raise max_tokens — thinking tokens "
+                        "count against the same budget as output."
+                    )
+                return content
             if r.status_code in (429, 500, 502, 503, 504):
                 last_err = OpenRouterError(
                     f"{model} HTTP {r.status_code}: {r.text[:400]}"

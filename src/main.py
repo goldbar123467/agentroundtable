@@ -32,9 +32,10 @@ def _auto_positions(topic: str, model: str, debater_ids: list[str]) -> dict[str,
         "Each position must be a single sentence stating what the debater "
         "will advocate for."
     )
+    example = "{" + ", ".join(f'"{d}": "..."' for d in debater_ids) + "}"
     user = (
         f"TOPIC: {topic}\nDEBATER IDS: {debater_ids}\n"
-        'Output JSON only, e.g. {"D1": "...", "D2": "...", "D3": "...", "D4": "..."}.'
+        f"Output JSON only, e.g. {example}."
     )
     raw = chat(
         model,
@@ -43,7 +44,7 @@ def _auto_positions(topic: str, model: str, debater_ids: list[str]) -> dict[str,
             {"role": "user", "content": user},
         ],
         temperature=0.3,
-        max_tokens=400,
+        max_tokens=4000,
     ).strip()
     if raw.startswith("```"):
         raw = raw.strip("`")
