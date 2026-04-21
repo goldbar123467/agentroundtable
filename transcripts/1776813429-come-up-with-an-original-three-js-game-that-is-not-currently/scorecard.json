@@ -1,0 +1,696 @@
+{
+  "cards": [
+    {
+      "judge_id": "J1",
+      "judge_name": "Hon. Ito",
+      "mental_model": "The topic compounds an originality mandate, a planning spec (JSON), and a concrete Babylon.js controller task; debaters must reconcile all three coherently.",
+      "scores": {
+        "D1": {
+          "logic": {
+            "score": 6,
+            "quote": "invent a completely original Three.js game... *then* plan it out using the JSON's design process",
+            "note": "Coherent sequencing argument but ignores that the prompt literally asks for Babylon.js code."
+          },
+          "evidence": {
+            "score": 4,
+            "quote": "three js has everything you need",
+            "note": "Citations are generic blog/Reddit material that don't actually support the 'must invent first' claim."
+          },
+          "rebuttal": {
+            "score": 5,
+            "quote": "Max supplies a pre-selected mechanics premise and then layers state-machine theory",
+            "note": "Addresses Grok and Max but ignores Qwen and doesn't engage Glen's framework critique."
+          },
+          "originality": {
+            "score": 4,
+            "quote": "yet another unoriginal movement script",
+            "note": "Position is meta-procedural; never proposes an actual original game, which is ironic given the stance."
+          },
+          "position_fit": {
+            "score": 7,
+            "quote": "Delivering Babylon controller code now produces the unoriginal, framework-mismatched result",
+            "note": "Stays on assigned position throughout."
+          }
+        },
+        "D2": {
+          "logic": {
+            "score": 8,
+            "quote": "Babylon.js uses a left-handed coordinate system; three.js uses right-handed",
+            "note": "Tight reasoning chain from coordinate systems to coupling to architecture."
+          },
+          "evidence": {
+            "score": 7,
+            "quote": "preserveDrawingBuffer=true... manually calling detachControl()",
+            "note": "Citations actually support the claims, though [S1] describes mixing engines which Max correctly notes is a different scenario."
+          },
+          "rebuttal": {
+            "score": 8,
+            "quote": "If you are overriding the engine's physics and collision anyway, Babylon's built-in systems provide zero advantage",
+            "note": "Surgical dismantling of Qwen's matrix-pipeline argument."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "clean filenames over coupled code",
+            "note": "Memorable framing; avoids generic phrasing."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "obeying a framework label against the topic's explicit technology choice is... cargo-cult compliance",
+            "note": "Consistently advocates pure three.js."
+          }
+        },
+        "D3": {
+          "logic": {
+            "score": 6,
+            "quote": "Opponents have supplied only more upstream theory",
+            "note": "Shipping-first argument is coherent but elides the topic's explicit 'original three.js game' clause."
+          },
+          "evidence": {
+            "score": 6,
+            "quote": "collider and moveWithCollision() function to move the character around",
+            "note": "Citations support Babylon's TS/controller viability but don't justify ignoring the three.js topic."
+          },
+          "rebuttal": {
+            "score": 6,
+            "quote": "The base controller becomes the instrument that lets us profile momentum",
+            "note": "Answers Max but waves off Glen's coordinate-system critique without technical counter."
+          },
+          "originality": {
+            "score": 4,
+            "quote": "delivered controller satisfies every listed focus area",
+            "note": "Very generic framing; leans on repetition of JSON clauses."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "adapting those guidelines directly to Babylon.js and deliver the controller",
+            "note": "Stays on assigned reformist position."
+          }
+        },
+        "D4": {
+          "logic": {
+            "score": 6,
+            "quote": "Standard controllers assume consistent spatial topology. Non-Euclidean architecture does not.",
+            "note": "Internally consistent but assumes a non-Euclidean premise the prompt never established."
+          },
+          "evidence": {
+            "score": 5,
+            "quote": "cutting Euclidean fragments and gluing them along non-standard boundaries",
+            "note": "Citations support non-Euclidean math but not the leap that this is the right design for this task."
+          },
+          "rebuttal": {
+            "score": 5,
+            "quote": "Babylon's left-handed coordinate system is not a conflict; it is a documented, consistent convention",
+            "note": "Fair counter to Glen but largely reasserts own architecture; extreme length dilutes force."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "persistent Vector3 momentum buffer that survives scene graph remapping",
+            "note": "Genuinely novel architectural proposal, though heavily repeated across turns."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "orthogonal momentum system that handles boundary crossing deterministically from frame one",
+            "note": "Consistently advocates the non-Euclidean traversal position."
+          }
+        },
+        "D5": {
+          "logic": {
+            "score": 7,
+            "quote": "zero-gravity inverts that default entirely... you amplify them, because nothing dampens velocity",
+            "note": "Sound reasoning tying physics inversion to state-machine design."
+          },
+          "evidence": {
+            "score": 6,
+            "quote": "identify and itemize the systems that comprise your core loop, and prototype them",
+            "note": "Citations fit; [S4] on feedback control is a bit of a stretch for game-controller runtime monitoring."
+          },
+          "rebuttal": {
+            "score": 7,
+            "quote": "Glen's costs apply to mixed-engine scenarios; my position uses Babylon.js as the primary engine",
+            "note": "Cleanly distinguishes Glen's scenario and neutralizes the framework objection."
+          },
+          "originality": {
+            "score": 8,
+            "quote": "constructor weaving structural paths, a traverser managing momentum... a tension manager",
+            "note": "Actually proposes an original game concept with articulated role ambiguity."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "Naming those failure cases before writing code is exactly what the JSON demands",
+            "note": "Holds position that design precedes code throughout."
+          }
+        }
+      },
+      "verdict": "Glen edges the panel on technical rigor and surgical rebuttals, with Max close behind for being the only debater who actually supplied an original game concept."
+    },
+    {
+      "judge_id": "J3",
+      "judge_name": "Hon. Ramos",
+      "mental_model": "The prompt is a compound directive: invent an original three.js game, then plan it via the JSON \u2014 but the trailing request contradicts with a Babylon.js controller, forcing debaters to prioritize among topic novelty, framework fidelity, and shipping concrete code.",
+      "scores": {
+        "D1": {
+          "logic": {
+            "score": 7,
+            "quote": "tools to be applied to that game, not a license to substitute a generic controller",
+            "note": "Clean sequential reading of the prompt; identifies the invention-first mandate coherently."
+          },
+          "evidence": {
+            "score": 5,
+            "quote": "three js has everything you need",
+            "note": "Citations are thin and generic \u2014 [S1][S3][S4] support three.js viability but don't load-bear the 'invent first' sequencing claim."
+          },
+          "rebuttal": {
+            "score": 6,
+            "quote": "Max supplies a pre-selected mechanics premise and then layers state-machine theory",
+            "note": "Directly engages Grok and Max but never produces the original game concept the position demands."
+          },
+          "originality": {
+            "score": 4,
+            "quote": "produce production-leaning systems instead of yet another unoriginal movement script",
+            "note": "Position is meta-procedural; Rook never invents the game the topic demands, undercutting the whole stance."
+          },
+          "position_fit": {
+            "score": 6,
+            "quote": "invent a completely original Three.js game that 'is not currently been built'",
+            "note": "Advocates the sequence but fails to perform it \u2014 holds position without executing it."
+          }
+        },
+        "D2": {
+          "logic": {
+            "score": 8,
+            "quote": "You have not achieved clean architecture; you have achieved clean filenames over coupled code",
+            "note": "Tight, well-structured engineering argument on coordinate systems, coupling, and context lifecycle."
+          },
+          "evidence": {
+            "score": 8,
+            "quote": "babyon.js uses a left handed coordinates system",
+            "note": "[S5][S1][S3] directly support handedness, preserveDrawingBuffer, and duck-typing claims with verifiable citations."
+          },
+          "rebuttal": {
+            "score": 8,
+            "quote": "three.js Matrix4 provides identical 4\u00d74 operations",
+            "note": "Surgically neutralizes Qwen's matrix-pipeline claim and reframes Grok's shipping argument."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "cargo-cult compliance",
+            "note": "Concrete, non-generic engineering framing; minimal filler."
+          },
+          "position_fit": {
+            "score": 9,
+            "quote": "The topic says three.js. The controller spec is framework-agnostic",
+            "note": "Unwavering advocacy for pure three.js; no hedging."
+          }
+        },
+        "D3": {
+          "logic": {
+            "score": 6,
+            "quote": "the JSON is the operative spec",
+            "note": "Coherent pragmatic reading but dodges the topic's opening novelty clause rather than rebutting it."
+          },
+          "evidence": {
+            "score": 6,
+            "quote": "collider and moveWithCollision() function to move the character around",
+            "note": "[S1][S2][S3] support Babylon TS tooling, but citations are shallow and repeat."
+          },
+          "rebuttal": {
+            "score": 5,
+            "quote": "Opponents have supplied only more upstream theory",
+            "note": "Engages Rook/Max but never answers Glen's handedness and coupling evidence."
+          },
+          "originality": {
+            "score": 4,
+            "quote": "prefer_concrete_implementation_over_abstract_advice",
+            "note": "Heavy reliance on quoting the JSON verbatim; framing feels template-like."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "ship the clean separated TypeScript movement controller as the minimal viable first step",
+            "note": "Clear advocacy for adapt-and-ship path; consistent throughout."
+          }
+        },
+        "D4": {
+          "logic": {
+            "score": 6,
+            "quote": "matrix multiplication per frame is heavier than simple vector addition, but it is deterministic",
+            "note": "Internally consistent but premise (non-Euclidean requires custom pipeline) is not rigorously proven against Glen's Matrix4 counter."
+          },
+          "evidence": {
+            "score": 6,
+            "quote": "cutting Euclidean fragments and gluing them along non-standard boundaries",
+            "note": "[S3][S4][S5] genuinely support the non-Euclidean framing, but [S5] is stretched to imply Babylon-specificity."
+          },
+          "rebuttal": {
+            "score": 5,
+            "quote": "Babylon's left-handed coordinate system is not a conflict; it is a documented, consistent convention",
+            "note": "Handles Glen partially but ignores Rook's invention-sequence objection and bloats instead of tightening."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "orthogonal momentum buffer, fixed vertical axis, and a single boundary transform",
+            "note": "Concept is genuinely novel, but execution is severely bloated (1462+1555+1704 words) \u2014 violates Karpathy simplicity."
+          },
+          "position_fit": {
+            "score": 7,
+            "quote": "build the traversal system that matches the space it navigates",
+            "note": "Strong advocacy but concedes the three.js framing clause, weakening fit."
+          }
+        },
+        "D5": {
+          "logic": {
+            "score": 7,
+            "quote": "You cannot prototype what you have not defined",
+            "note": "Coherent core-loop-first argument; handles the tension between novelty mandate and shipping mandate."
+          },
+          "evidence": {
+            "score": 6,
+            "quote": "basic parameters of physics of the game such as gravity and inertia",
+            "note": "[S1][S3][S4] support the design-sequence claim adequately; [S4] is stretched (feedback control theory \u2192 gameplay)."
+          },
+          "rebuttal": {
+            "score": 7,
+            "quote": "Glen's costs apply to mixed-engine scenarios; my position uses Babylon.js as the primary engine",
+            "note": "Directly engages both Glen's coordinate critique and Grok's shipping-first frame with specific distinctions."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "constructor weaving structural paths, a traverser managing momentum, or a tension manager",
+            "note": "Zero-gravity bridge-weaving is a genuinely fresh concept with articulated design questions."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "Naming those failure cases before writing code is exactly what the JSON demands",
+            "note": "Consistent advocacy for identifying core loop and state transitions before controller code."
+          }
+        }
+      },
+      "verdict": "D2 Glen edges the match by combining the tightest technical evidence with surgical rebuttals; D5 Max is the strongest original-concept advocate but does not outweigh Glen's engineering case."
+    },
+    {
+      "judge_id": "J2",
+      "judge_name": "Hon. Kova\u010d",
+      "mental_model": "The prompt contains a compound instruction with tension between inventing an original three.js game and shipping a Babylon.js controller; each position argues a different resolution path.",
+      "scores": {
+        "D1": {
+          "logic": {
+            "score": 7,
+            "quote": "The JSON's core-loop identification applies to the game we must first create",
+            "note": "Coherent reading of sequence; correctly identifies compound directive but leans on restatement."
+          },
+          "evidence": {
+            "score": 5,
+            "quote": "[S4] confirms \"three js has everything you need\"",
+            "note": "Citations are generic marketing-level sources that weakly support the strict-sequencing argument."
+          },
+          "rebuttal": {
+            "score": 6,
+            "quote": "Max supplies a pre-selected mechanics premise and then layers state-machine theory",
+            "note": "Steelman of Grok is accurate; Max rebuttal lands but Qwen/Glen largely untouched."
+          },
+          "originality": {
+            "score": 5,
+            "quote": "yet another unoriginal movement script",
+            "note": "Argument is straightforward prompt-literalism without fresh framing."
+          },
+          "position_fit": {
+            "score": 9,
+            "quote": "The topic's required sequence\u2014original Three.js game first, JSON-driven planning second",
+            "note": "Tightly advocates strict-sequencing position throughout."
+          }
+        },
+        "D2": {
+          "logic": {
+            "score": 8,
+            "quote": "You have not achieved clean architecture; you have achieved clean filenames over coupled code",
+            "note": "Three claims are distinct and each logically chained; handles mixed-vs-standalone distinction imperfectly."
+          },
+          "evidence": {
+            "score": 8,
+            "quote": "Babylon.js uses a left-handed coordinate system; three.js uses right-handed [S5]",
+            "note": "Strongest citation use in the panel; [S1][S3][S5] genuinely support the claims."
+          },
+          "rebuttal": {
+            "score": 8,
+            "quote": "three.js `Matrix4` provides identical 4\u00d74 operations",
+            "note": "Directly dismantles Qwen's Babylon-necessity claim and engages Grok's shipping framing."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "obeying a framework label against the topic's explicit technology choice is not engineering judgment, it is cargo-cult compliance",
+            "note": "Sharp framing; coupling-vs-filenames distinction is non-generic."
+          },
+          "position_fit": {
+            "score": 9,
+            "quote": "The only reason to choose Babylon is that the prompt literally says \"Babylon.js\"",
+            "note": "Unwavering advocacy for pure three.js; no both-sidesing."
+          }
+        },
+        "D3": {
+          "logic": {
+            "score": 6,
+            "quote": "The JSON is the operative spec",
+            "note": "Shipping-first argument is coherent but glosses over the topic's three.js mandate rather than refuting it."
+          },
+          "evidence": {
+            "score": 6,
+            "quote": "Babylon.js is written in TypeScript, compiled from TS sources",
+            "note": "Citations support TS/controller feasibility but not the 'reform' move itself."
+          },
+          "rebuttal": {
+            "score": 6,
+            "quote": "Opponents have supplied only more upstream theory",
+            "note": "Engages Max adequately; under-addresses Glen's coordinate/coupling critique."
+          },
+          "originality": {
+            "score": 4,
+            "quote": "zero runnable artifacts after multiple turns",
+            "note": "Repeats JSON quote-lists rather than building fresh argument."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "adapting its rules directly to Babylon.js and shipping the clean separated TypeScript controller",
+            "note": "Stays on assigned reform-and-ship position."
+          }
+        },
+        "D4": {
+          "logic": {
+            "score": 5,
+            "quote": "standard controllers cannot ship a functional non-Euclidean traversal loop",
+            "note": "Assumes non-Euclidean premise that topic never requires; internal logic fine but foundation shaky."
+          },
+          "evidence": {
+            "score": 6,
+            "quote": "cutting Euclidean fragments and gluing them along non-standard boundaries [S3]",
+            "note": "Citations support non-Euclidean math but don't justify choosing this as the game."
+          },
+          "rebuttal": {
+            "score": 5,
+            "quote": "conflates mixing two engines in a single canvas with using Babylon.js as the standalone target",
+            "note": "Fair point on Glen, but ignores topic's three.js constraint entirely."
+          },
+          "originality": {
+            "score": 8,
+            "quote": "orthogonal momentum buffer, fixed vertical axis, and a single boundary transform",
+            "note": "Most technically distinctive architecture proposed; genuinely specific."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "build the traversal system that matches the space it navigates",
+            "note": "Advocates orthogonal momentum throughout; heavy verbatim repetition weakens polish."
+          }
+        },
+        "D5": {
+          "logic": {
+            "score": 7,
+            "quote": "Shipping infrastructure before the product it serves means shipping the wrong infrastructure",
+            "note": "Clean core-loop-first reasoning; zero-g inversion argument is tight."
+          },
+          "evidence": {
+            "score": 7,
+            "quote": "In 3D first or third-person shooters or action games, this includes... gravity and inertia",
+            "note": "Uses [S1] and [S3] load-bearingly; quotes are accurate."
+          },
+          "rebuttal": {
+            "score": 8,
+            "quote": "This cost analysis is correct \u2014 but it applies only when two engines share a single canvas",
+            "note": "Genuine steelmans; concedes Glen's technical point while neutralizing its scope."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "constructor weaving structural paths, a traverser managing momentum... a tension manager",
+            "note": "Three-role core-loop framing is non-generic and game-design-native."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "Naming those failure cases before writing code is exactly what the JSON demands",
+            "note": "Consistently advocates design-first for zero-g bridge-weaving specifically."
+          }
+        }
+      },
+      "verdict": "Glen (D2) wins on the strongest triangulation of evidence, logic, and rebuttal; Max (D5) is the runner-up with the most coherent synthesis of novelty and JSON design sequence."
+    }
+  ],
+  "aggregate": {
+    "per_debater": {
+      "D1": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              6,
+              7,
+              7
+            ],
+            "mean": 6.67,
+            "median": 7
+          },
+          "evidence": {
+            "raw": [
+              4,
+              5,
+              5
+            ],
+            "mean": 4.67,
+            "median": 5
+          },
+          "rebuttal": {
+            "raw": [
+              5,
+              6,
+              6
+            ],
+            "mean": 5.67,
+            "median": 6
+          },
+          "originality": {
+            "raw": [
+              4,
+              4,
+              5
+            ],
+            "mean": 4.33,
+            "median": 4
+          },
+          "position_fit": {
+            "raw": [
+              7,
+              6,
+              9
+            ],
+            "mean": 7.33,
+            "median": 7
+          }
+        },
+        "total": 28.67
+      },
+      "D2": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              8,
+              8,
+              8
+            ],
+            "mean": 8,
+            "median": 8
+          },
+          "evidence": {
+            "raw": [
+              7,
+              8,
+              8
+            ],
+            "mean": 7.67,
+            "median": 8
+          },
+          "rebuttal": {
+            "raw": [
+              8,
+              8,
+              8
+            ],
+            "mean": 8,
+            "median": 8
+          },
+          "originality": {
+            "raw": [
+              7,
+              7,
+              7
+            ],
+            "mean": 7,
+            "median": 7
+          },
+          "position_fit": {
+            "raw": [
+              8,
+              9,
+              9
+            ],
+            "mean": 8.67,
+            "median": 9
+          }
+        },
+        "total": 39.33
+      },
+      "D3": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              6,
+              6,
+              6
+            ],
+            "mean": 6,
+            "median": 6
+          },
+          "evidence": {
+            "raw": [
+              6,
+              6,
+              6
+            ],
+            "mean": 6,
+            "median": 6
+          },
+          "rebuttal": {
+            "raw": [
+              6,
+              5,
+              6
+            ],
+            "mean": 5.67,
+            "median": 6
+          },
+          "originality": {
+            "raw": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "median": 4
+          },
+          "position_fit": {
+            "raw": [
+              8,
+              8,
+              8
+            ],
+            "mean": 8,
+            "median": 8
+          }
+        },
+        "total": 29.67
+      },
+      "D4": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              6,
+              6,
+              5
+            ],
+            "mean": 5.67,
+            "median": 6
+          },
+          "evidence": {
+            "raw": [
+              5,
+              6,
+              6
+            ],
+            "mean": 5.67,
+            "median": 6
+          },
+          "rebuttal": {
+            "raw": [
+              5,
+              5,
+              5
+            ],
+            "mean": 5,
+            "median": 5
+          },
+          "originality": {
+            "raw": [
+              7,
+              7,
+              8
+            ],
+            "mean": 7.33,
+            "median": 7
+          },
+          "position_fit": {
+            "raw": [
+              8,
+              7,
+              8
+            ],
+            "mean": 7.67,
+            "median": 8
+          }
+        },
+        "total": 31.33
+      },
+      "D5": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              7,
+              7,
+              7
+            ],
+            "mean": 7,
+            "median": 7
+          },
+          "evidence": {
+            "raw": [
+              6,
+              6,
+              7
+            ],
+            "mean": 6.33,
+            "median": 6
+          },
+          "rebuttal": {
+            "raw": [
+              7,
+              7,
+              8
+            ],
+            "mean": 7.33,
+            "median": 7
+          },
+          "originality": {
+            "raw": [
+              8,
+              7,
+              7
+            ],
+            "mean": 7.33,
+            "median": 7
+          },
+          "position_fit": {
+            "raw": [
+              8,
+              8,
+              8
+            ],
+            "mean": 8,
+            "median": 8
+          }
+        },
+        "total": 36.0
+      }
+    },
+    "ranking": [
+      "D2",
+      "D5",
+      "D4",
+      "D3",
+      "D1"
+    ],
+    "winner": "D2",
+    "outliers": []
+  }
+}

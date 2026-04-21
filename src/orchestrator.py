@@ -93,6 +93,7 @@ class Orchestrator:
 
     def build_judges(self) -> list[Judge]:
         cfg = self.config
+        judge_max_tokens = cfg["debate"].get("max_tokens_per_judge", 2400)
         return [
             Judge(
                 id=j["id"],
@@ -101,6 +102,7 @@ class Orchestrator:
                 role_md=self.judge_role,
                 prompts_md=self.judge_prompts,
                 temperature=cfg["debate"]["temperature_judge"],
+                max_tokens=judge_max_tokens,
             )
             for j in cfg["judges"]
         ]

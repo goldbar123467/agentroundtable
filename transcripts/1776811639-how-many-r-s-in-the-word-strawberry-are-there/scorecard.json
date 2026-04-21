@@ -1,0 +1,696 @@
+{
+  "cards": [
+    {
+      "judge_id": "J2",
+      "judge_name": "Hon. Kova\u010d",
+      "mental_model": "The literal spelling of 'strawberry' contains three R-glyphs; other framings are interpretive overlays.",
+      "scores": {
+        "D1": {
+          "logic": {
+            "score": 9,
+            "quote": "places R's at positions 3, 8, and 9",
+            "note": "Clean direct enumeration matching the literal question."
+          },
+          "evidence": {
+            "score": 8,
+            "quote": "educational references affirm \"STRAWBERRY\" has 3 Rs",
+            "note": "Citations [S2][S5] directly support the three-count claim."
+          },
+          "rebuttal": {
+            "score": 7,
+            "quote": "English orthography counts letters as written regardless of sounds",
+            "note": "Addresses Glen and Qwen's concessions but doesn't engage phonological challenge."
+          },
+          "originality": {
+            "score": 5,
+            "quote": "direct letter-by-letter enumeration proving exactly three",
+            "note": "Functional but repetitive; leans on restating positions."
+          },
+          "position_fit": {
+            "score": 10,
+            "quote": "exactly three R's, as shown by spelling it S-T-R-A-W-B-E-R-R-Y",
+            "note": "Holds position ruthlessly throughout."
+          }
+        },
+        "D2": {
+          "logic": {
+            "score": 6,
+            "quote": "doubled R in \"berry\" is a single geminate consonant",
+            "note": "Coherent phonological argument but conflates letters with phonemes against the literal question."
+          },
+          "evidence": {
+            "score": 5,
+            "quote": "GPT-4o decomposes \"strawberry\" into \"straw\" + \"berry\"",
+            "note": "Cites LLM output as linguistic authority; [S4] in own dossier contradicts thesis."
+          },
+          "rebuttal": {
+            "score": 7,
+            "quote": "what principled linguistic criterion distinguishes \"berry\" from \"better\"",
+            "note": "Sharp challenge to Rook that went largely unanswered."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "one R performing one function, written twice",
+            "note": "Distinctive geminate-phoneme framing, not generic."
+          },
+          "position_fit": {
+            "score": 9,
+            "quote": "Two R's in the word",
+            "note": "Consistent advocacy for the two-count position."
+          }
+        },
+        "D3": {
+          "logic": {
+            "score": 4,
+            "quote": "reform to exclude duplicates would resolve this core limitation",
+            "note": "Proposes reform but never grounds why tokenizer behavior should dictate letter-counting rules."
+          },
+          "evidence": {
+            "score": 3,
+            "quote": "appearing in the fifth and ninth positions",
+            "note": "[S5] in own dossier explicitly says three Rs; misreads sources."
+          },
+          "rebuttal": {
+            "score": 4,
+            "quote": "why defend broken literal rules instead of reforming them",
+            "note": "Mostly repeats opening question rather than engaging specifics."
+          },
+          "originality": {
+            "score": 4,
+            "quote": "viral test demands new standards aligned with observed model behavior",
+            "note": "Thin, repetitive reform framing."
+          },
+          "position_fit": {
+            "score": 7,
+            "quote": "Reforming rules to align with how machines",
+            "note": "Stays on reform thesis but weakly."
+          }
+        },
+        "D4": {
+          "logic": {
+            "score": 6,
+            "quote": "orthographic count is a starting point, not a conclusion",
+            "note": "Coherent but concedes the literal answer, undermining the assigned pivot."
+          },
+          "evidence": {
+            "score": 5,
+            "quote": "Old English \"str\u0113awberige,\" itself a fusion",
+            "note": "Etymology uncited; dossier has zero botanical/historical data, acknowledged but unresolved."
+          },
+          "rebuttal": {
+            "score": 6,
+            "quote": "Grok's proposal mistakes an engineering optimization for a grammatical imperative",
+            "note": "Good Grok dismantling; weaker on Rook's literal-question framing."
+          },
+          "originality": {
+            "score": 5,
+            "quote": "measures surface repetition instead of structural function",
+            "note": "Substantial but bloated at 1700+ words; drowns original points in repetition."
+          },
+          "position_fit": {
+            "score": 6,
+            "quote": "dossier contains zero botanical data",
+            "note": "Openly cannot fulfill botanical mandate; substitutes linguistics, partial fit."
+          }
+        },
+        "D5": {
+          "logic": {
+            "score": 8,
+            "quote": "Four opponents. Four methods. Four answers.",
+            "note": "Meta-argument from opponent divergence is tight and valid."
+          },
+          "evidence": {
+            "score": 7,
+            "quote": "Byte Pair Encoding tokenization, parsing \"strawberry\" as compressed subword chunks",
+            "note": "Cites [S3] accurately; uses divergence evidence well."
+          },
+          "rebuttal": {
+            "score": 8,
+            "quote": "Rook cannot simultaneously claim the answer is a fixed fact",
+            "note": "Catches Rook's concession as self-contradictory; crisp."
+          },
+          "originality": {
+            "score": 8,
+            "quote": "convergence on disagreement proves the answer is context-dependent",
+            "note": "Novel meta-framing turning opponents into evidence."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "choosing a method is a contextual act",
+            "note": "Sustained relativist position without collapsing into any specific count."
+          }
+        }
+      },
+      "verdict": "D1 Rook wins on position fit and literal-question alignment; D5 Max is the strongest runner-up on meta-logic and rebuttal craft."
+    },
+    {
+      "judge_id": "J3",
+      "judge_name": "Hon. Ramos",
+      "mental_model": "The word 'strawberry' spelled S-T-R-A-W-B-E-R-R-Y contains three R-glyphs; alternative framings require defending why their parse trumps literal orthography.",
+      "scores": {
+        "D1": {
+          "logic": {
+            "score": 9,
+            "quote": "places R's at positions 3, 8, and 9",
+            "note": "Direct enumeration is valid and sufficient for the literal question asked."
+          },
+          "evidence": {
+            "score": 8,
+            "quote": "educational references affirm \"STRAWBERRY\" has 3 Rs",
+            "note": "Citations [S2][S5] directly support three; [S1] is mixed but acknowledged."
+          },
+          "rebuttal": {
+            "score": 7,
+            "quote": "English orthography counts letters as written regardless of sounds",
+            "note": "Cleanly answers Glen's phoneme pivot but under-engages Max's protocol challenge."
+          },
+          "originality": {
+            "score": 5,
+            "quote": "direct letter-by-letter enumeration proving exactly three",
+            "note": "Straightforward and tight but not novel framing."
+          },
+          "position_fit": {
+            "score": 10,
+            "quote": "the literal answer is three per direct spelling",
+            "note": "Holds assigned position throughout with zero drift."
+          }
+        },
+        "D2": {
+          "logic": {
+            "score": 7,
+            "quote": "doubled R in \"berry\" is a single geminate consonant",
+            "note": "Coherent phonemic argument but conflates 'letter' with 'phoneme.'"
+          },
+          "evidence": {
+            "score": 6,
+            "quote": "GPT-4o decomposes \"strawberry\" into \"straw\" + \"berry\"",
+            "note": "Cites model output as if authoritative; [S3] shows spelling has 10 letters including three Rs."
+          },
+          "rebuttal": {
+            "score": 8,
+            "quote": "why does no speaker of English ever produce or perceive two R-sounds",
+            "note": "Sharp, repeated challenge Rook never fully addresses."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "marks the preceding vowel as short, a morphological signal",
+            "note": "Geminate/vowel-marking framing is substantive and non-generic."
+          },
+          "position_fit": {
+            "score": 9,
+            "quote": "Two R's in the word",
+            "note": "Stays on 'two' throughout with consistent linguistic grounding."
+          }
+        },
+        "D3": {
+          "logic": {
+            "score": 4,
+            "quote": "rules...must be reformed to exclude duplicates",
+            "note": "Never grounds why tokenizer behavior should dictate orthographic rule reform."
+          },
+          "evidence": {
+            "score": 4,
+            "quote": "appearing in the fifth and ninth positions",
+            "note": "[S5] in own dossier contradicts by stating three Rs; cites model-error sources as validation."
+          },
+          "rebuttal": {
+            "score": 5,
+            "quote": "consistent convergence of LLMs on \"2\" is not a glitch but diagnostic",
+            "note": "Engages Rook but assumes its own conclusion about what the failure 'proves.'"
+          },
+          "originality": {
+            "score": 5,
+            "quote": "viral test demands new standards aligned with observed model behavior",
+            "note": "Repetitive framing across turns; reform proposal is thin."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "reform to exclude duplicates would resolve this core limitation",
+            "note": "Sticks to reform stance consistently."
+          }
+        },
+        "D4": {
+          "logic": {
+            "score": 6,
+            "quote": "spelling stability does not equal analytical sufficiency",
+            "note": "Arguments are coherent but bloated; concedes the count then fights a different question."
+          },
+          "evidence": {
+            "score": 5,
+            "quote": "research dossier limitation is explicit: it contains zero botanical data",
+            "note": "Admits botanical evidence is absent; relies on overstretched etymology claims not in dossier."
+          },
+          "rebuttal": {
+            "score": 6,
+            "quote": "Grok's proposal mistakes an engineering optimization for a grammatical imperative",
+            "note": "Decent takedown of Grok; mostly restates rather than surgically rebuts Rook."
+          },
+          "originality": {
+            "score": 4,
+            "quote": "Character enumeration provides zero explanatory power",
+            "note": "Massive repetition across turns; 1708-word opening violates simplicity norm."
+          },
+          "position_fit": {
+            "score": 6,
+            "quote": "I will not fabricate agricultural history or plant taxonomy",
+            "note": "Honest but drops assigned 'botanical' half of position entirely."
+          }
+        },
+        "D5": {
+          "logic": {
+            "score": 8,
+            "quote": "four opponents. Four methods. Four answers",
+            "note": "Meta-level observation is genuinely load-bearing for the relativist thesis."
+          },
+          "evidence": {
+            "score": 7,
+            "quote": "use Byte Pair Encoding tokenization...as compressed subword chunks",
+            "note": "[S3] supports tokenization claim; divergence citation is real and apt."
+          },
+          "rebuttal": {
+            "score": 8,
+            "quote": "Rook cannot simultaneously claim the answer is a fixed fact and that AI outputs diverge",
+            "note": "Catches Rook in a tension and turns Glen's own argument against him."
+          },
+          "originality": {
+            "score": 8,
+            "quote": "convergence on disagreement proves the answer is context-dependent",
+            "note": "Cleanest framing in the round; uses opponents' divergence as evidence."
+          },
+          "position_fit": {
+            "score": 9,
+            "quote": "frames are chosen, not discovered",
+            "note": "Holds the interpretive-context line without drifting to a specific count."
+          }
+        }
+      },
+      "verdict": "Max wins on rhetorical strength by weaponizing opponents' disagreement, but Rook's literal reading of the literal question remains the most defensible answer to what was actually asked."
+    },
+    {
+      "judge_id": "J1",
+      "judge_name": "Hon. Ito",
+      "mental_model": "The literal question asks for a count of letter R glyphs in the standard English spelling of 'strawberry', which is three; alternative framings are interesting but must justify departing from the plain reading.",
+      "scores": {
+        "D1": {
+          "logic": {
+            "score": 9,
+            "quote": "places R's at positions 3, 8, and 9",
+            "note": "Direct enumeration is valid and dispositive for the literal question."
+          },
+          "evidence": {
+            "score": 8,
+            "quote": "educational references affirm \"STRAWBERRY\" has 3 Rs",
+            "note": "Citations [S2][S5] directly support the count; [S1] is cited loosely but not fatally."
+          },
+          "rebuttal": {
+            "score": 7,
+            "quote": "English orthography counts letters as written regardless of sounds",
+            "note": "Engages Glen and Qwen's concessions cleanly, though doesn't fully answer the phoneme vs letter challenge."
+          },
+          "originality": {
+            "score": 6,
+            "quote": "the third as the ninth letter (...rRy)",
+            "note": "Tight and unadorned; not creative but free of slop."
+          },
+          "position_fit": {
+            "score": 10,
+            "quote": "the literal answer is three per direct spelling",
+            "note": "Unwavering advocacy for the assigned position."
+          }
+        },
+        "D2": {
+          "logic": {
+            "score": 6,
+            "quote": "doubled R in \"berry\" is a single geminate consonant",
+            "note": "Internally coherent phonological argument, but conflates phonemes with the question's letters."
+          },
+          "evidence": {
+            "score": 5,
+            "quote": "GPT-4o decomposes \"strawberry\" into \"straw\" + \"berry\"",
+            "note": "Citations support LLM behavior but not the linguistic claim that 'berry' has one R."
+          },
+          "rebuttal": {
+            "score": 7,
+            "quote": "a word is a linguistic unit, not a string of printed characters",
+            "note": "Directly challenges Rook's framing with a principled distinction."
+          },
+          "originality": {
+            "score": 7,
+            "quote": "counts the same phoneme twice because of a vowel-marking convention",
+            "note": "Geminate framing is a genuinely non-generic move."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "Two R's in the word",
+            "note": "Committed advocacy, though the position itself is linguistically strained."
+          }
+        },
+        "D3": {
+          "logic": {
+            "score": 4,
+            "quote": "exposing token-level failures that prove current duplicate-inclusive rules are broken",
+            "note": "Non-sequitur: LLM failures do not imply orthographic rules must change."
+          },
+          "evidence": {
+            "score": 3,
+            "quote": "appearing in the fifth and ninth positions",
+            "note": "Cites [S2][S3] for 'two R's' but those sources frame it as an AI error, not validation."
+          },
+          "rebuttal": {
+            "score": 4,
+            "quote": "why defend broken literal rules instead of reforming them",
+            "note": "Rhetorical repetition rather than engagement with specific counter-claims."
+          },
+          "originality": {
+            "score": 3,
+            "quote": "this viral test demands new standards aligned with observed model behavior",
+            "note": "Repetitive and formulaic across turns; closing nearly duplicates opening."
+          },
+          "position_fit": {
+            "score": 7,
+            "quote": "Reform to exclude consecutive duplicates resolves this",
+            "note": "Stays on the reform position but never grounds the normative leap."
+          }
+        },
+        "D4": {
+          "logic": {
+            "score": 5,
+            "quote": "Objectivity in spelling does not translate to analytical depth",
+            "note": "Coherent but evasive\u2014concedes the actual question while pivoting to a different one."
+          },
+          "evidence": {
+            "score": 4,
+            "quote": "fused from Old English \"str\u0113awberige\"",
+            "note": "Etymology claims are unsupported by the dossier which contains no historical sources."
+          },
+          "rebuttal": {
+            "score": 6,
+            "quote": "mistakes an engineering optimization for a grammatical imperative",
+            "note": "Lands a clean hit on Grok but largely restates position against Rook."
+          },
+          "originality": {
+            "score": 3,
+            "quote": "It is a parlor trick, not a valid measure",
+            "note": "Severe bloat\u20141700 word opening, 1300 word rebuttal, heavy repetition of 'analytical endpoint' phrasing."
+          },
+          "position_fit": {
+            "score": 5,
+            "quote": "the dossier contains zero botanical data",
+            "note": "Openly abandons the botanical half of the assigned position."
+          }
+        },
+        "D5": {
+          "logic": {
+            "score": 8,
+            "quote": "Four opponents. Four methods. Four answers.",
+            "note": "Strong meta-observation that the debate itself evidences the relativism thesis."
+          },
+          "evidence": {
+            "score": 7,
+            "quote": "LLMs \u2014 GPT-3, GPT-3.5, Claude \u2014 do not see \"strawberry\" as a string",
+            "note": "Citations [S3][S2][S5] map cleanly to claims about divergent outputs."
+          },
+          "rebuttal": {
+            "score": 8,
+            "quote": "Rook cannot simultaneously claim the answer is a fixed fact",
+            "note": "Surgical exposure of internal tension in Rook's rebuttal."
+          },
+          "originality": {
+            "score": 8,
+            "quote": "convergence on disagreement proves the answer is context-dependent",
+            "note": "Uses opponents' own divergence as evidence\u2014genuinely novel framing."
+          },
+          "position_fit": {
+            "score": 8,
+            "quote": "3 is correct under one frame, and frames are chosen",
+            "note": "Defends relativism without collapsing into 'all answers equal'."
+          }
+        }
+      },
+      "verdict": "D1 Rook wins on the literal question with the cleanest evidence-to-claim mapping, though D5 Max performed strongest tactically given the difficulty of the assigned position."
+    }
+  ],
+  "aggregate": {
+    "per_debater": {
+      "D1": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              9,
+              9,
+              9
+            ],
+            "mean": 9,
+            "median": 9
+          },
+          "evidence": {
+            "raw": [
+              8,
+              8,
+              8
+            ],
+            "mean": 8,
+            "median": 8
+          },
+          "rebuttal": {
+            "raw": [
+              7,
+              7,
+              7
+            ],
+            "mean": 7,
+            "median": 7
+          },
+          "originality": {
+            "raw": [
+              5,
+              5,
+              6
+            ],
+            "mean": 5.33,
+            "median": 5
+          },
+          "position_fit": {
+            "raw": [
+              10,
+              10,
+              10
+            ],
+            "mean": 10,
+            "median": 10
+          }
+        },
+        "total": 39.33
+      },
+      "D2": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              6,
+              7,
+              6
+            ],
+            "mean": 6.33,
+            "median": 6
+          },
+          "evidence": {
+            "raw": [
+              5,
+              6,
+              5
+            ],
+            "mean": 5.33,
+            "median": 5
+          },
+          "rebuttal": {
+            "raw": [
+              7,
+              8,
+              7
+            ],
+            "mean": 7.33,
+            "median": 7
+          },
+          "originality": {
+            "raw": [
+              7,
+              7,
+              7
+            ],
+            "mean": 7,
+            "median": 7
+          },
+          "position_fit": {
+            "raw": [
+              9,
+              9,
+              8
+            ],
+            "mean": 8.67,
+            "median": 9
+          }
+        },
+        "total": 34.67
+      },
+      "D3": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "median": 4
+          },
+          "evidence": {
+            "raw": [
+              3,
+              4,
+              3
+            ],
+            "mean": 3.33,
+            "median": 3
+          },
+          "rebuttal": {
+            "raw": [
+              4,
+              5,
+              4
+            ],
+            "mean": 4.33,
+            "median": 4
+          },
+          "originality": {
+            "raw": [
+              4,
+              5,
+              3
+            ],
+            "mean": 4,
+            "median": 4
+          },
+          "position_fit": {
+            "raw": [
+              7,
+              8,
+              7
+            ],
+            "mean": 7.33,
+            "median": 7
+          }
+        },
+        "total": 23.0
+      },
+      "D4": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              6,
+              6,
+              5
+            ],
+            "mean": 5.67,
+            "median": 6
+          },
+          "evidence": {
+            "raw": [
+              5,
+              5,
+              4
+            ],
+            "mean": 4.67,
+            "median": 5
+          },
+          "rebuttal": {
+            "raw": [
+              6,
+              6,
+              6
+            ],
+            "mean": 6,
+            "median": 6
+          },
+          "originality": {
+            "raw": [
+              5,
+              4,
+              3
+            ],
+            "mean": 4,
+            "median": 4
+          },
+          "position_fit": {
+            "raw": [
+              6,
+              6,
+              5
+            ],
+            "mean": 5.67,
+            "median": 6
+          }
+        },
+        "total": 26.0
+      },
+      "D5": {
+        "dimensions": {
+          "logic": {
+            "raw": [
+              8,
+              8,
+              8
+            ],
+            "mean": 8,
+            "median": 8
+          },
+          "evidence": {
+            "raw": [
+              7,
+              7,
+              7
+            ],
+            "mean": 7,
+            "median": 7
+          },
+          "rebuttal": {
+            "raw": [
+              8,
+              8,
+              8
+            ],
+            "mean": 8,
+            "median": 8
+          },
+          "originality": {
+            "raw": [
+              8,
+              8,
+              8
+            ],
+            "mean": 8,
+            "median": 8
+          },
+          "position_fit": {
+            "raw": [
+              8,
+              9,
+              8
+            ],
+            "mean": 8.33,
+            "median": 8
+          }
+        },
+        "total": 39.33
+      }
+    },
+    "ranking": [
+      "D1",
+      "D5",
+      "D2",
+      "D4",
+      "D3"
+    ],
+    "winner": "D1",
+    "outliers": []
+  }
+}

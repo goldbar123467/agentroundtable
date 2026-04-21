@@ -1,44 +1,47 @@
 # agentroundtable — model + run config
 # Models are OpenRouter slugs: https://openrouter.ai/models
-# Pick 4 debaters and 3 judges. Diversity across providers is recommended.
+# 5 debaters + 3 Opus-4.7 judges, tuned to stay under $3 total for a test run.
 
 debate:
   rounds:
     - opening
     - rebuttal
     - closing
-  research_results_per_debater: 8   # Brave results fetched per debater
-  max_tokens_per_turn: 1600
-  temperature_debater: 0.6
-  temperature_judge: 0.2
+  research_results_per_debater: 5   # Brave results fetched per debater (trimmed from 8 to shrink input)
+  max_tokens_per_turn: 4000         # kimi-k2.6 reasoning chewed 2500 on its research memo alone — 4000 gives room
+  max_tokens_per_judge: 4000        # Opus 4.7 reasoning + scorecard JSON (5 × 5 dims)
+  temperature_debater: 0.1
+  temperature_judge: 0.1
 
 debaters:
   - id: D1
-    name: "Aria"
-    model: "anthropic/claude-sonnet-4.5"
+    name: "Rook"
+    model: "x-ai/grok-4.20-multi-agent"
   - id: D2
-    name: "Blaise"
-    model: "openai/gpt-5"
+    name: "Glen"
+    model: "z-ai/glm-5.1"
   - id: D3
-    name: "Chen"
-    model: "google/gemini-2.5-pro"
+    name: "Grok"
+    model: "x-ai/grok-4.20-multi-agent"
   - id: D4
-    name: "Dara"
-    model: "meta-llama/llama-3.3-70b-instruct"
+    name: "Qwen"
+    model: "qwen/qwen3.6-plus"
+  - id: D5
+    name: "Max"
+    model: "minimax/minimax-m2.7"
 
 judges:
   - id: J1
     name: "Hon. Ito"
-    model: "anthropic/claude-opus-4.5"
+    model: "anthropic/claude-opus-4.7"
   - id: J2
     name: "Hon. Kovač"
-    model: "openai/gpt-5"
+    model: "anthropic/claude-opus-4.7"
   - id: J3
     name: "Hon. Ramos"
-    model: "x-ai/grok-4"
+    model: "anthropic/claude-opus-4.7"
 
 pipeline:
-  # Standard filter thresholds applied to each argument before it reaches judges.
   min_citations_per_argument: 2
   slop_phrases:
     - "it is important to note"
@@ -50,7 +53,5 @@ pipeline:
     - "in today's fast-paced world"
     - "ultimately"
     - "moreover, it's worth mentioning"
-  # Max allowed slop-phrase hits per 1k tokens before a warning is attached.
   slop_warn_threshold_per_1k: 3
-  # Judges with z-score beyond this flag the score as an outlier.
   outlier_z: 2.0
