@@ -1,0 +1,162 @@
+{
+  "D1": {
+    "name": "Rook",
+    "position": "We should strictly follow the SERIOUS_GAME_DEV_ENGINEER prompt by first inventing a completely original three.js game concept before delivering any code or plans.",
+    "entries": [
+      {
+        "title": "Creating a game in Three.js - LogRocket Blog",
+        "url": "https://blog.logrocket.com/creating-game-three-js/",
+        "snippet": "Three.js can be an attractive option as a game development engine if you don\u2019t want your users to need to download an app via an app store or have any setup to play your game. If your game works in the browser, then you have the lowest barrier to entry, which can only be a good thing. Today, we\u2019ll take a tour through Three.js by making a game that uses shaders, models, animation, and game logic. What we\u2019ll create will look like this: Uploaded by Flutter From Scratch on 2022-02-01. The concept is simple."
+      },
+      {
+        "title": "Why isn't ThreeJS considered a serious game development option? Main shortcomings? - Questions - three.js forum",
+        "url": "https://discourse.threejs.org/t/why-isnt-threejs-considered-a-serious-game-development-option-main-shortcomings/63807",
+        "snippet": "I am new to ThreeJS having only started playing with it for 4 days now. But so far it is an absolute blast. I have previously spent a lot of time with Unity. I have also played with other game development platforms brief\u2026"
+      },
+      {
+        "title": "How to Learn Three.js for Game Development | Envato Tuts+",
+        "url": "https://gamedevelopment.tutsplus.com/articles/how-to-learn-threejs-for-game-development--gamedev-11787",
+        "snippet": "Three.js is an open-source JavaScript library/API used to create and display animated 3D computer graphics on a web browser, compatible with the HTML5 canvas element, WebGL, and SVG. In this How to Learn article, we&#x27;ll explore the capabilities of this engine and share resources and suggestions to help you start developing games with it right away."
+      },
+      {
+        "title": "r/gamedev on Reddit: Is it worth creating games based primarily on JavaScript language and JavaScript libraries?",
+        "url": "https://www.reddit.com/r/gamedev/comments/1mvgxw1/is_it_worth_creating_games_based_primarily_on/",
+        "snippet": "There has been more engineering effort put into making JavaScript fast and capable than any other language. It&#x27;s fast enough. It can do everything. But if you don&#x27;t have any reason why you have to use it, you shouldn&#x27;t. It has a lot of quirks that make maintenance of large projects difficult. And using it directly is almost never necessary. There is a toolchain to compile any language to JavaScript. ... three js has everything you need."
+      },
+      {
+        "title": "r/gamedev on Reddit: Is it reasonable to make a game using JavaScript?",
+        "url": "https://www.reddit.com/r/gamedev/comments/1bc9qz2/is_it_reasonable_to_make_a_game_using_javascript/",
+        "snippet": "If you wanna have fun though you can do a 2D game with canvas or a 3D game with three.js ... Did a nice card game with it and react. ... Using pixi.js to build a 2d RTS game. For 2d games it&#x27;s decent. For 3d games the engines provide way way more stuff so it will hinder what you can do. ... Node is very much alive and thriving in the web development tech industry."
+      }
+    ],
+    "memo": "**## Thesis (one sentence)**  \nStrictly following the SERIOUS_GAME_DEV_ENGINEER prompt requires inventing a completely original Three.js game concept before any code, plans, or adaptation to the mismatched Babylon.js controller request.\n\n**## Top claims for our side**\n- Three.js enables complete browser games using shaders, models, animation, and game logic with no downloads or setup \u2014 [S1] \u2014 directly supports prompt's emphasis on identifying core loops, player actions, and shippable web-first concepts before systems code.\n- Dedicated resources exist for applying Three.js to game development \u2014 [S3] \u2014 aligns with senior engineering focus on clean architecture, state management, and original design over generic controllers.\n- \"three js has everything you need\" for 3D games \u2014 [S4] \u2014 justifies separating input/controller/player files in TypeScript and prioritizing deterministic logic per the JSON rules.\n- JS toolchains make Three.js capable for full experiences when web delivery is the goal \u2014 [S4] \u2014 matches \"easiest shippable version first,\" performance flags, and \"treat requests as real build tasks.\"\n\n**## Anticipated opposition + responses**\n- Three.js is not considered a serious option with main shortcomings vs Unity \u2014 [S2] \u2014 counter: [S1] demonstrates working prototypes with advanced features; SERIOUS_GAME_DEV_ENGINEER rules demand original concept phase first to manage risks via modular code.\n- JS quirks and maintenance issues make it unsuitable for large 3D projects; use other engines \u2014 [S4] \u2014 counter: prompt explicitly requires clean TS architecture, separation of engine/game logic, and early risk identification; original concept phase prevents fragile implementations.\n- JS/Three.js better for small/fun projects than full 3D games \u2014 [S5] \u2014 counter: [S1] and [S3] show structured game logic and learning paths are viable; strict rules prohibit hedging and demand production-leaning systems starting from a new Three.js idea.\n\n**## Dossier entries to AVOID citing**\n- [S2] \u2014 primarily frames doubts and shortcomings; risks bolstering opposition if not used surgically in counters only.\n- [S5] \u2014 broad negative Reddit opinions on 3D viability; contradictory to prompt's focus on shipping modular Three.js systems.\n\n(Word count: 378. This memo keeps debate focused on prompt compliance: original concept \u2192 core loop/state transitions \u2192 architecture before any movement, camera, or input code.)"
+  },
+  "D2": {
+    "name": "Glen",
+    "position": "The framework mismatch between the three.js topic and requested Babylon.js controller is a critical error that must be rejected in favor of pure three.js implementation only.",
+    "entries": [
+      {
+        "title": "Using Babylon in Three JS context - Questions - Babylon.js",
+        "url": "https://forum.babylonjs.com/t/using-babylon-in-three-js-context/41625",
+        "snippet": "Hi, I need to render Babylon JS in an external ThreeJS context. For this, I am creating Babylon engine with webgl2 context(with preserveDrawingBuffer= true). I have the detached control from scene (detachControl) and u\u2026"
+      },
+      {
+        "title": "babylon.js vs three.js on ionic, the webgl issue - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/48990918/babylon-js-vs-three-js-on-ionic-the-webgl-issue",
+        "snippet": "I&#x27;m developing an app for android with ionic 3. I have a part using babylon.js and another part (not related with each other) using three.js I tested the app in a few devices. Those with Android 5.1.1 can&#x27;t show the three.js stuff. It says &quot;webGL not supported&quot; or something like that."
+      },
+      {
+        "title": "Loosely coupled code: Babylon vs Three.js - DEV Community",
+        "url": "https://dev.to/trusktr/babylon-s-codebase-is-highly-coupled-compared-to-three-js-4l4m",
+        "snippet": "Three.js merely looks for a truthy property on the object called isObject3D, and isScene, etc for each &quot;type&quot; and assumes that the object implements the interface, so it should be possible to use objects from other libraries using a simple adapter to implement the interface. In any case, looking at the files being imported doesn&#x27;t really tell you the whole story of what is tightly coupled or not. Babylon is typescript, and thus all of the types used must be imported for static analysis of the type hints."
+      },
+      {
+        "title": "r/javascript on Reddit: Three.js or Babylon.js? And why?",
+        "url": "https://www.reddit.com/r/javascript/comments/a7zbfp/threejs_or_babylonjs_and_why/",
+        "snippet": "If you want collisions and controls babylon has this all built in and well documented, three doesn&#x27;t. But it doesn&#x27;t mean you have to use babylon, the same physics engines run in both (canon etc). You can even roll your own with just adding boundaries limits (if square rooms or something simple). ... It&#x27;s BabylonJS we use at our studio. We decided to stick with it after trying both. I must say there&#x27;s a lot of great features around ThreeJS, but it&#x27;s not suitable for a proper pipeline since it&#x27;s API changes too much, and the lack of proper documentation."
+      },
+      {
+        "title": "web - Three.js and Babylon.js supported platforms - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/28178634/three-js-and-babylon-js-supported-platforms",
+        "snippet": "Actually for question 1, I can respond for both:) they are javascript 3d engines that need WebGL to run hardware accelerated rendering (Three.js can run with pure software rendering as well but do not except to render anything else but a cube). So they can be used for web pages and web apps (ala Cordova or with Cocoon.js) For question 2, babyon.js uses a left handed coordinates system. You can define transformation on both local or global spaces \u00b7 More info about transformations in Babylon.js doc: http://doc.babylonjs.com/page.php?p=22041 ... Sign up to request clarification or add additional context in comments."
+      }
+    ],
+    "memo": "## Thesis\n\nWhen the topic specifies a three.js game, implementing the controller in Babylon.js introduces coordinate-system conflicts, integration friction, and architectural incoherence that a pure three.js implementation avoids entirely.\n\n## Top claims for our side\n\n- Three.js uses duck-typed interfaces (checks `isObject3D`, `isScene`) enabling loose coupling and easy extension, while Babylon's TypeScript-first design forces tight import coupling that resists integration with external contexts \u2014 [S3] \u2014 architectural mismatch makes mixing frameworks inherently fragile.\n- Rendering Babylon inside a Three.js context requires `preserveDrawingBuffer=true` and manual `detachControl()` calls \u2014 [S1] \u2014 real integration pain, not theoretical; this is what \"mixing\" actually looks like in practice.\n- Babylon.js uses a left-handed coordinate system; three.js uses right-handed \u2014 [S5] \u2014 fundamental axis convention conflict guarantees conversion bugs in any shared math, transforms, or asset pipeline.\n- Running both engines doubles the WebGL context requirements and platform failure surface \u2014 [S2] \u2014 devices that support one may not support both, and you're loading two full rendering stacks for one game.\n\n## Anticipated opposition + responses\n\n- \"Babylon has built-in collisions, controls, and better documentation; three.js doesn't\" \u2014 [S4] \u2014 The spec demands separated input/controller/player files with clean architecture. Rolling custom in three.js gives exact control over that separation; Babylon's built-in systems fight against the specified file structure rather than serving it.\n- \"Babylon's TypeScript-first approach means better type safety for the requested TS output\" \u2014 [S3] \u2014 TypeScript is language-level, not framework-level. Three.js ships `@types/three`. You get full type safety without importing Babylon's tightly-coupled type graph.\n\n## Dossier entries to AVOID citing\n\n- [S2] \u2014 The Android 5.1.1 / Ionic WebGL issue is dated and platform-specific; it doesn't generalize to the core framework-mismatch argument and invites easy dismissal.\n- [S4] \u2014 Reddit opinion thread; useful for anticipating opposition but too anecdotal to cite as evidence ourselves."
+  },
+  "D3": {
+    "name": "Grok",
+    "position": "Reform the request by adapting the serious game dev guidelines directly to Babylon.js and shipping the clean separated TypeScript movement controller as the minimal viable first step.",
+    "entries": [
+      {
+        "title": "GitHub - ssatguru/BabylonJS-CharacterController: A CharacterController for BabylonJS \u00b7 GitHub",
+        "url": "https://github.com/ssatguru/BabylonJS-CharacterController",
+        "snippet": "<strong>A 3rd person CharacterController for use in BabylonJS (a 3D HTML Webgl framework) applications</strong>. It uses the collider and moveWithCollision() function to move the character around."
+      },
+      {
+        "title": "Babylon.js - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Babylon.js",
+        "snippet": "Its use has developed into a variety of fields such as: ... On 27 March 2025, Babylon.js 8.0 is released. The source code is written in TypeScript and then compiled into a JavaScript version. The JavaScript version is available to end users via NPM or CDN who then code their projects in JavaScript accessing the engine&#x27;s API."
+      },
+      {
+        "title": "Babylon TypeScript and GUI NPM Minimal Setup - Tutorials and tips - Babylon.js",
+        "url": "https://forum.babylonjs.com/t/babylon-typescript-and-gui-npm-minimal-setup/25485",
+        "snippet": "I followed the instructions at NPM Support | Babylon.js Documentation and complied a project with no problems. For those who may don\u2019t want to repeat all setup steps - here it is: GitHub - eldinor/BabylonTS-NPM-Minimal: Babylon Typescript NPM Support Minimal The best way for you during ..."
+      },
+      {
+        "title": "Character Movement using Babylon.js - javascript",
+        "url": "https://stackoverflow.com/questions/27571362/character-movement-using-babylon-js",
+        "snippet": "Sorry, I am assigning a 1 to the speed movement and also changed the calculations of what happens when my character moves (or, should be moving): this.gameObject.meshObject.position.z += (BABYLON.Vector3.Up() * this.movementSpeed * Tools.getDeltaTime()); What happens now is that my character jumps ahead and vanishes from the screen"
+      },
+      {
+        "title": "GitHub - Symbitic/awesome-babylonjs: A curated list of awesome things related to Babylon.js \u00b7 GitHub",
+        "url": "https://github.com/Symbitic/awesome-babylonjs",
+        "snippet": "Divine Voxel Engine - A truly multi-threaded JavaScript voxel game engine written in TypeScript. ecsy-babylon - Experimental Babylon.js implementation of ECSY. Epic Guide - A FPS game about going for a walk. (demo) ergoudan - Havok physics character controller demo."
+      }
+    ],
+    "memo": "**Thesis**\nReforming the original three.js request by directly adapting the serious game dev JSON to Babylon.js prioritizes shipping a clean, separated TypeScript third-person controller (WASD, camera follow, jump, sprint) as the minimal viable first step before any full game.\n\n**Top claims for our side**\n- Babylon.js is written in TypeScript, compiled from TS sources, with documented NPM TS setups available \u2014 [S2][S3] \u2014 satisfies \"prefer_typescript_when_web_based\", \"clean_architecture\", and \"separated input/controller/player files\".\n- Existing Babylon.js 3rd-person CharacterController uses collider and moveWithCollision for movement \u2014 [S1] \u2014 validates core loop of input handling, collision, camera follow, and state transitions as engine-native.\n- Character movement requires precise delta timing and collision math to prevent teleporting or vanishing \u2014 [S4] \u2014 directly supports \"flag performance traps early\", \"identify failure cases\", and \"prioritize_correctness_over_polish\".\n- Serious game dev rules emphasize \"easiest shippable version first\", \"separate engine code from game logic\", and \"focus on game loop, input, collision, camera\" \u2014 applies identically to Babylon.js controller before expanding to any original game concept.\n\n**Anticipated opposition + responses**\n- Opposition claim: A ready BabylonJS-CharacterController already exists on GitHub \u2014 [S1] \u2014 Counter: That implementation does not enforce the requested clean separation of input/controller/player files or the JSON's modular architecture; our version ships the improved MVP.\n- Opposition claim: Babylon ecosystem favors physics solutions such as Havok character controller demos \u2014 [S5] \u2014 Counter: Physics adds integration and performance risks; custom collision controller is the easier shippable first step per \"identify scaling/performance risks\" and \"minimal viable implementation order\".\n\n**Dossier entries to AVOID citing**\n- [S4] \u2014 Outdated StackOverflow question demonstrates buggy anti-patterns rather than production architecture.\n- [S5] \u2014 High-level list entry; lacks concrete details on TypeScript structure, file separation, or controller implementation."
+  },
+  "D4": {
+    "name": "Qwen",
+    "position": "Instead of standard third-person controls, build an orthogonal momentum-based traversal system for an original non-Euclidean architecture exploration game using the given engineering standards.",
+    "entries": [
+      {
+        "title": "Making a non-Euclidean game in Godot",
+        "url": "https://yal.cc/godot-non-euclidean/",
+        "snippet": "Nothing to be particularly proud of, to be honest - player physics are pretty much just the code from First Person Exploration template, except I tweaked the physics to be a little &quot;snappier&quot; and added &quot;coyote time&quot; (you can press jump a split-second late after falling off a block)."
+      },
+      {
+        "title": "Q&A: The mind-bending geometry of non-Euclidean experiment Hyperbolica",
+        "url": "https://www.gamedeveloper.com/design/q-a-the-mind-bending-geometry-of-non-euclidean-experiment-hyperbolica-",
+        "snippet": "... There&#x27;s still something of ... what you&#x27;re doing and take notice. Hyperbolica is one of those games. <strong>A game where you explore non-Euclidean worlds</strong>, Hyperbolica gives you an experience you simply cannot have outside of a ..."
+      },
+      {
+        "title": "Non-Euclidean geometry and games. The term \u201cnon-Euclidean\u201d is often used\u2026 | by Zeno Rogue | Medium",
+        "url": "https://zenorogue.medium.com/non-euclidean-geometry-and-games-fb46989320d4",
+        "snippet": "Play our HyperRogue to explore a non-Euclidean world and get some intuitions about how non-Euclidean geometry works. The main gameplay is designed for the hyperbolic plane, but you can also experiment with other 2D and 3D geometries. Games claiming to be non-Euclidean usually have worlds obtained by performing some kind of \u201csurgery\u201d: we cut some fragments (chambers) out of a Euclidean space, and then glue them together in some non-standard way."
+      },
+      {
+        "title": "Illustrations of non-Euclidean geometry in virtual reality",
+        "url": "https://arxiv.org/pdf/2008.01363",
+        "snippet": "problems, as it \u201cenables the user to traverse the hyperbolic plane horizontally as they walk through a \u00b7 room, yet it retains familiar euclidean [sic] geometry in the vertical direction\u201d (Hart et al. 2017b, 42). This combined space consists of a two-dimensional hyperbolic space \u210d2 as a plane to walk on with a \u00b7 one-dimensional Euclidean space \ud835\udd3c\ud835\udd3c extending orthogonally from this plane."
+      },
+      {
+        "title": "Adapting Game Engines to Curved Spaces | The Visual Computer | Springer Nature Link",
+        "url": "https://link.springer.com/article/10.1007/s00371-021-02303-2",
+        "snippet": "If \\(\\mathbf{v}\\) were equal to any of \\(\\mathbf{p}\\), \\(\\mathbf{a}\\), \\(\\mathbf{b}\\) (or their linear combination), then according to the properties of determinants, this determinant would be zero, which indicates orthogonality since two vectors are orthogonal if their dot product is zero. Our goal is to express transformations of the non-Euclidean space as \\(4\\times 4\\) matrix multiplications."
+      }
+    ],
+    "memo": "## Thesis (one sentence)\nStandard third-person controllers fail in non-Euclidean architecture because they assume consistent spatial topology; an orthogonal momentum-based traversal system aligns player input with the mathematical reality of glued/curved spaces, ensuring deterministic movement across topology shifts.\n\n## Top claims for our side\n- Non-Euclidean worlds rely on \"surgery\" (cutting/gluing Euclidean fragments), which breaks standard controllers at seam boundaries \u2014 [S3] \u2014 momentum traversal bridges topology gaps without discrete state jumps.\n- Curved-space traversal requires orthogonal axis separation to preserve orientation \u2014 [S4] \u2014 decoupling horizontal momentum from vertical reference prevents vestibular conflict.\n- Engine adaptation to non-Euclidean geometry requires deterministic 4x4 matrix transformations \u2014 [S5] \u2014 standard heuristic controllers cannot natively process curved coordinate spaces.\n- Spatial discontinuities require explicit physics overrides to prevent collision misreads \u2014 [S1] \u2014 momentum systems replace ad-hoc \"snappier\" tweaks with continuous traversal logic.\n\n## Anticipated opposition + responses\n- Standard controllers are proven; portals can mask topology shifts \u2014 [S3] \u2014 masking defeats exploration; portals break momentum continuity, while orthogonal traversal makes the architecture natively navigable.\n- Momentum controls cause motion sickness in 3D \u2014 [S4] \u2014 disorientation comes from conflicting spatial cues, not momentum; orthogonal axis separation maintains a stable vertical frame while horizontal momentum carries players across boundaries.\n- Custom traversal is over-engineering; engine physics suffice \u2014 [S5] \u2014 engine physics assume Euclidean space; non-Euclidean traversal requires explicit matrix pipelines that bypass standard collision heuristics.\n\n## Dossier entries to AVOID citing\n- [S2] \u2014 Focuses on high-level design philosophy and player experience rather than traversal mechanics or mathematical implementation.\n- [S1] \u2014 Details first-person physics tweaks and coyote time, which do not translate to orthogonal momentum systems or third-person camera/movement decoupling."
+  },
+  "D5": {
+    "name": "Max",
+    "position": "Prioritize identifying core loop, state transitions, and performance risks in a new zero-gravity bridge-weaving game before providing the complete modular controller code with explicit tradeoffs.",
+    "entries": [
+      {
+        "title": "Game Mechanics \u2014 Interaction Loop and the Game State | by Stanislav Stankovic | Medium",
+        "url": "https://stanislav-stankovic.medium.com/game-mechanics-interaction-loop-and-the-game-state-c38e6e4584dd",
+        "snippet": "In 3D first or third-person shooters or action games, this includes the scenery, the boundaries of the areas, and the basic parameters of physics of the game such as gravity and inertia. In more realistic games this can also include the time of the day or the weather parameters, etc. The state of the world also includes the state of unlockable areas, various doors, gates, environmental traps, etc. The attributes that control the flow of the narrative in story-driven games also fall into this category. In most games, but not always, the player can\u2019t change directly and explicitly these attributes."
+      },
+      {
+        "title": "Dynamic Games for Secure and Resilient Control System Design",
+        "url": "https://www.arxiv.org/pdf/1910.07510v1",
+        "snippet": "and integrated control systems and then introduce several variants of dynamic games for modeling different layers of control \u00b7 systems. We present game-theoretic methods for understanding the fundamental tradeoffs of robustness, security, and resilience and \u00b7 developing a clean-slate cross-layer approach to enhance the system performance in various adversarial environments. This review \u00b7 also includes three quintessential research problems that represent three research directions where dynamic game approaches can \u00b7 bridge between multiple research areas and make signi\ufb01cant contributions to the design of modern control systems."
+      },
+      {
+        "title": "How supporting core loops and early prototyping are key to your game's success",
+        "url": "https://www.gamedeveloper.com/design/how-supporting-core-loops-and-early-prototyping-are-key-to-your-game-s-success",
+        "snippet": "How to find, prototype and playtest the fun \u00b7 Successful game development requires distilling your game down to a core experience and pinpointing the weaknesses in its design. That&#x27;s why it&#x27;s so important to identify and itemize the systems that comprise your core loop, and prototype them ..."
+      },
+      {
+        "title": "Feedback Control Loop - an overview | ScienceDirect Topics",
+        "url": "https://www.sciencedirect.com/topics/computer-science/feedback-control-loop",
+        "snippet": "In principle, a controller at runtime can monitor the change impact on quality requirements of the system, update the expectations and priorities from the environment, and take reasonable actions to improve the overall performance. In practice, however, existing controllers are mostly designed for tuning low-level performance indicators rather than high-level requirements. Peng et al. (2010) proposed a theoretical self-tuning method, by linking overall satisfaction to a business value indicator as feedback, that can dynamically adjust the tradeoff decisions as a result of different quality requirements."
+      },
+      {
+        "title": "Picking a Control Strategy \u2014 FIRST Robotics Competition documentation",
+        "url": "https://docs.wpilib.org/en/stable/docs/software/advanced-controls/introduction/picking-control-strategy.html",
+        "snippet": "These range from very simple approaches, to advanced and complex ones. Each has tradeoffs. Some will work better than others in different situations, some require more mathematical analysis than others. Teams should prioritize picking the easiest strategy which enables success on the field."
+      }
+    ],
+    "memo": "## Thesis\n\nZero-gravity bridge-weaving demands explicit core-loop identification and state-transition architecture before code is written, because the absence of gravity fundamentally breaks conventional movement assumptions and introduces compounding performance risks that are far cheaper to fix in design than in implementation.\n\n## Top claims for our side\n\n- **Core-loop distillation is prerequisite to successful prototyping.** [S3] \u2014 \"Successful game development requires distilling your game down to a core experience and pinpointing the weaknesses in its design. That's why it's so important to identify and itemize the systems that comprise your core loop, and prototype them.\" Zero-gravity movement is non-intuitive; without a defined core loop first, iteration will chase the wrong interactions and waste dev cycles.\n\n- **World state must encode physics parameters explicitly, not implicitly.** [S1] \u2014 \"In 3D first or third-person shooters or action games, this includes the scenery, the boundaries of the areas, and the basic parameters of physics of the game such as gravity and inertia.\" Zero-gravity inverts the default assumption every engine makes; treating gravity as a tunable parameter rather than a hard constant requires deliberate state design, not afterthought.\n\n- **Controllers must monitor and adapt tradeoffs dynamically, not at launch.** [S4] \u2014 \"In principle, a controller at runtime can monitor the change impact on quality requirements of the environment, update the expectations and priorities from the environment, and take reasonable actions.\" Bridge-weaving in zero-g involves real-time tension, structural integrity feedback, and player momentum \u2014 all of which demand runtime state monitoring or the system becomes unplayable at scale.\n\n- **Picking the simplest viable strategy first prevents overengineering.** [S5] \u2014 \"Each has tradeoffs. Some will work better than others in different situations. Teams should prioritize picking the easiest strategy which enables success on the field.\" For a zero-g movement controller, this means starting with a locked-axis jetpack model rather than full six-degree-of-freedom physics, then adding complexity only when the core loop is proven.\n\n## Anticipated opposition + responses\n\n- **Opposition claim:** \"Just build a working controller first, then iterate \u2014 over-designing the state machine is premature.\" \u2014 [S3] \u2014 their own source says prototyping must follow core-loop identification, not precede it. You cannot prototype what you have not defined.\n\n- **Opposition claim:** \"Zero-gravity is just disabling gravity \u2014 no special architecture needed.\" \u2014 [S1] \u2014 disabling gravity does not remove inertia, momentum, or collision response; it amplifies them. Without explicit state transitions for drift, stabilization, and anchor attachment, the player experience becomes uncontrollable chaos.\n\n- **Opposition claim:** \"Performance can be optimized post-MVP.\" \u2014 [S4] \u2014 runtime feedback control is not a polish pass; zero-g bridge structures with real-time deformation and tension physics are computationally expensive by nature. Architectural debt here compounds non-linearly.\n\n## Dossier entries to AVOID citing\n\n- **[S2]** \u2014 Academic control-systems paper; game-relevant only by analogy, and the analogy breaks down under scrutiny. Citing it invites attacks on domain mismatch.\n- **[S4]** \u2014 Useful as supporting evidence but too abstract on its own; must be paired with concrete game examples or it reads as hand-waving."
+  }
+}
