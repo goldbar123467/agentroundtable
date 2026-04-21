@@ -10,8 +10,8 @@ debate:
   research_results_per_debater: 5   # Brave results fetched per debater (trimmed from 8 to shrink input)
   max_tokens_per_turn: 4000         # kimi-k2.6 reasoning chewed 2500 on its research memo alone — 4000 gives room
   max_tokens_per_judge: 4000        # Opus 4.7 reasoning + scorecard JSON (5 × 5 dims)
-  temperature_debater: 0.6
-  temperature_judge: 0.2
+  temperature_debater: 0.1
+  temperature_judge: 0.1
 
 debaters:
   - id: D1

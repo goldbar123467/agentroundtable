@@ -77,7 +77,11 @@ class Debater:
 
     def run_research(self, topic: str, *, results_count: int) -> None:
         """Query Brave, store dossier, and produce a research memo."""
+        # Brave caps queries at 400 chars; the full topic+position can blow past
+        # that when the topic is long (e.g. a pasted spec). Truncate to stay inside.
         query = f"{topic} {self.position}"
+        if len(query) > 380:
+            query = (self.position[:380]).strip()
         entries = brave.search(query, count=results_count)
         self.dossier_entries = entries
         self.dossier_text = brave.format_dossier(entries)
